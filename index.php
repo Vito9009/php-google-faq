@@ -62,6 +62,25 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <div class="my_top-header">
+            <div class="logo-container">
+                <img src="https://www.google.ch/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="">
+                <h2>Privacy e termini</h2>
+            </div>
+            <div class="account-option">
+                <div class="my_account-circle"></div>
+            </div>
+        </div>
+
+        <div class="my_bottom-header">
+            <span><a href="">Introduzione</a></span>
+            <span><a href="">Norme sulla privacy</a></span>
+            <span><a href="">Termini di servizio</a></span>
+            <span><a href="">Tecnologie</a></span>
+            <span><a  class="active" href="">Domande frequenti</a></span>
+        </div>
+    </header>
     <main>
         <?php
             foreach ($faq as $QandA) {
